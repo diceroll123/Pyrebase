@@ -16,10 +16,10 @@ setup(
     keywords='Firebase',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'requests==2.26.0',
+        'requests>=2.28.1,<3',
         'gcloud==0.17.0',
         'oauth2client==3.0.0',
-        'requests_toolbelt==0.7.0',
+        'requests_toolbelt>=0.7.0,<1',
         'python_jwt==2.0.1',
         'pycryptodome==3.15.0'
     ]
